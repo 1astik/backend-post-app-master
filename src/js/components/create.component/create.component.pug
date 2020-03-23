@@ -1,0 +1,31 @@
+form.create
+	//h2.create__head Создать новый пост
+	//
+	//label.create__label-select(for='create-select') Тип
+	//select.create__select-choose(id='create-select' name='type')
+	//	option.create__option(value='новость' selected) Новость
+	//	option.create__option(value='заметка') Заметка
+	//
+	//label.create__label(for='inputLabel') Заголовок
+	//
+	//input.create__input(placeholder='Введите название' id='inputLabel' name='title')
+	//label.create__label-body-text(for='input-body-text') Text
+	//
+	//textarea.create__body-text(placeholder='Введите текст поста' id='input-body-text' name='fulltext')
+	//
+	//button.create__btn-submit.startBtn  Отправить
+
+	form(class="text-center border border-light p-5" action="#!")
+
+
+		select(class="browser-default custom-select mb-4" id='create-select' name='type')
+			option(value='новость' selected) News
+			option(value='заметка') Note
+
+
+		input(type="text" id="inputLabel" class="form-control mb-4" placeholder="Header" name='title')
+
+
+		div.form-group
+			textarea(class="form-control rounded-0" id='input-body-text' name='fulltext' rows="3" placeholder="Text news/note")
+		button.btn.btn-dark-green.btn-block.startBtn.mb-5 Create

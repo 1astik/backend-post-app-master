@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show{
+  display: block !important;
+}
+
+.back{
+  background-image: url("img/RNPFogVideo_EN-US8941485556_1366x768.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}

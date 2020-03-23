@@ -1,0 +1,13 @@
+.navbar{
+  font-size: 1.2rem;
+  .nav-link{
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  .hide{
+    display: none;
+  }
+}
+

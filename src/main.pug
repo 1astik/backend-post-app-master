@@ -1,0 +1,18 @@
+extends pug/tamplate
+
+block body
+	div.container-fluid
+		div.row
+			div.col-3.back
+				//include js/components/header.component/header.component.pug
+				include js/components/navigation.component/navigation.component.pug
+				include js/components/create.component/create.component.pug
+			div.col-7
+				include js/components/post.component/post.component.pug
+				include js/components/favorites.component/favorites.component.pug
+				include js/components/done.component/done.component.pug
+
+
+
+
+
